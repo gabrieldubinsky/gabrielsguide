@@ -1,0 +1,9 @@
+title: Gabriel's Guide
+description: My guide to things
+url: https://gabrielsguide.com
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
