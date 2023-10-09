@@ -2,18 +2,29 @@ title: Gabriel's Guide
 description: My guide to things
 url: https://gabrielsguide.com
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 include: 
   - _pages
 
 defaults:
   - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /:categories/:title
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      permalink: :path/:basename
+  - scope:
       path: _pages
       type: pages
     values:
       permalink: /:basename
-
-# collections: 
-#   content:
-#     output: true
-#     permalink: /:path
 

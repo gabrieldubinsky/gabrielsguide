@@ -1,12 +1,12 @@
 ---
-layout: default
 title: Home
+permalink: /
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>Guides to whatever has most recently captured my attention!</h1>
 
-{% for page in site.pages %}
+{% for page in site.docs %}
 <p>
   {{page.title}}
 </p>    
-{% endfor %}
+{% endfor %} 
