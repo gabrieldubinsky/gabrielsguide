@@ -2,7 +2,17 @@ title: Gabriel's Guide
 description: My guide to things
 url: https://gabrielsguide.com
 
-collections:
+# include: 
+#   - _pages
+
+# defaults:
+#   - scope:
+#       path: _pages
+#       type: pages
+#     values:
+#       permalink: /:basename
+
+collections: 
   pages:
     output: true
     permalink: /:path
