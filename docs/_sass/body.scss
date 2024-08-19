@@ -1,7 +1,64 @@
 body 
 {
-    background-color: white;
+    color: $color-text-dark;
+    background-color: $color-background;
     font-family: $font-sans-serif;
     margin: 0%;
     padding: 0%
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.container
+{
+    display: flex;
+    align-items: start;
+    margin: 3%;
+    column-gap: 3%;
+}
+
+.panel
+{
+    color: $color-text-light;
+    // margin: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: $color-panel;
+}
+
+.panel a
+{
+    background-color: $color-current;
+    color: $color-text-dark;
+    border-radius: 20px;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+}
+
+.panel a:hover
+{
+    background-color: $color-background;
+}
+
+.content
+{
+    flex-grow: 1;
+    min-width: 75%;
+}
+
+.sidebar
+{
+    max-width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .sidebar {
+        display: none !important;
+    }
 }

@@ -1,26 +1,28 @@
 nav
 {
-    background-color: $color-grey;
+    background-color: $color-nav;
     padding: 14px 0px;
     position: sticky;
     margin: 0%;
 }
 
-a {
+nav a {
     float: none;
-    color: #f2f2f2;
+    color: $color-text-light;
     text-align: center;
-    padding: 14px 16px;
+    border-radius: 20px;
+    padding: 8px 14px;
     text-decoration: none;
     font-size: 17px;
+    margin: 5px;
 }
 
-a:hover {
-    background-color: #ddd;
-    color: black;
+nav a:hover {
+    background-color: $color-background;
+    color: $color-text-dark;
 }
   
-a.current {
-    background-color: $color-background;
-    color: black;
+nav a.current {
+    background-color: $color-current;
+    color: $color-text-dark;
 }
