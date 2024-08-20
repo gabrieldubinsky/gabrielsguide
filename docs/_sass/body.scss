@@ -24,8 +24,6 @@ ul
 .panel
 {
     color: $color-text-light;
-    // margin: 5%;
-    padding: 2%;
     border-radius: 20px;
     background-color: $color-panel;
 }
@@ -50,11 +48,13 @@ ul
 {
     flex-grow: 1;
     min-width: 75%;
+    padding: 3%;
 }
 
 .sidebar
 {
     max-width: 200px;
+    padding: 2%;
 }
 
 @media screen and (max-width: 800px) {

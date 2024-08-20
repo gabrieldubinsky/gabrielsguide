@@ -4,15 +4,15 @@ ul { list-style-type: none; padding-left: 0; }
 
 .container { display: flex; align-items: start; margin: 3%; column-gap: 3%; }
 
-.panel { color: #ffffff; padding: 2%; border-radius: 20px; background-color: #0d1321; }
+.panel { color: #ffffff; border-radius: 20px; background-color: #0d1321; }
 
 .panel a { background-color: #38e2b7; color: #000000; border-radius: 20px; padding: 8px 14px; text-decoration: none; font-size: 17px; margin: 5px; }
 
 .panel a:hover { background-color: #8CA0BA; }
 
-.content { flex-grow: 1; min-width: 75%; }
+.content { flex-grow: 1; min-width: 75%; padding: 3%; }
 
-.sidebar { max-width: 200px; }
+.sidebar { max-width: 200px; padding: 2%; }
 
 @media screen and (max-width: 800px) { .sidebar { display: none !important; } }
 nav { background-color: #0d1321; padding: 14px 0px; position: sticky; margin: 0%; }
