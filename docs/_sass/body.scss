@@ -13,12 +13,22 @@ ul
     padding-left: 0;
 }
 
+h1
+{
+    background-color: $color-current;
+    color: $color-text-dark;
+    border-radius: 20px;
+    padding: 8px 14px; 
+    display: inline-block;
+}
+
 .container
 {
     display: flex;
     align-items: start;
     margin: 3%;
     column-gap: 3%;
+    row-gap: 20px;
 }
 
 .panel
@@ -55,6 +65,18 @@ ul
 {
     max-width: 200px;
     padding: 2%;
+}
+
+.navigation
+{
+    padding: 3%;
+    flex-basis: 300px;
+}
+
+.wrapping
+{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 800px) {
